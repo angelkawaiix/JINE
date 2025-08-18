@@ -1,26 +1,3 @@
-/*
-Theme Information
-================
-
-Created by: @_xangelkawaiix_ (Instagram)
-Version: 0.0.0
-Description: JINE/NSO inspired Discord theme
-
-*/
-
-@font-face {
-  font-family: 'zpix';
-  src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/zpix.ttf?raw=true') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-:root {
-  --nso-cyan: #90f4e4;
-  --nso-purple: #4d23cf;
-  --nso-pink-header: #f0d1f1;
---jine-bubble: #cee7ff;}
-
 /* === NSO outlines === */
 .nso-outline, {
     outline: 3px solid var(--nso-purple);
