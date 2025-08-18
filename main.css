@@ -1,3 +1,13 @@
+/*
+Theme Information
+================
+
+Created by: @_xangelkawaiix_ (Instagram)
+Version: 0.0.0
+Description: JINE/NSO inspired Discord theme
+
+*/
+
 @font-face {
   font-family: 'zpix';
   src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/zpix.ttf?raw=true') format('truetype');
@@ -12,7 +22,7 @@
 --jine-bubble: #cee7ff;}
 
 /* === NSO outlines === */
-.nso-outline, .themedBackground__74017 {
+.nso-outline, {
     outline: 3px solid var(--nso-purple);
     outline-offset: 0px;
     box-shadow:
@@ -56,4 +66,10 @@ main.chatContent_f75fb0 {
 .themedBackground__74017{
   background-color: white;
   border-radius: 0;
+  outline: 2px;
+  outline-color:white;
+}
+
+.channelTextArea_f75fb0 {
+    background: transparent;
 }
