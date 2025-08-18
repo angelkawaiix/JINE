@@ -30,6 +30,17 @@ Description: JINE/NSO inspired Discord theme
         0 0 0 9px var(--nso-purple);
 }
 
+a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,iframe,img,ins,kbd,label,legend,li,object,ol,p,pre,q,s,samp,small,span,strike,strong,table,tbody,td,tfoot,th,thead,tr,tt,ul,var {
+    border: 0;
+    font-family: Zpix;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
 /* === Jine Background === */
 main.chatContent_f75fb0 {
     background: url("https://github.com/angelkawaiix/JINE/blob/main/resources/images/JINEBG.png?raw=true");
@@ -49,8 +60,8 @@ main.chatContent_f75fb0 {
 }
 
 .markup__75297{
-  font-family: Zpix;
-  color: var(--nso-purple);
+  font-family: Zpix !important;
+  color: var(--nso-purple) !important;
 }
 
 .zalgo_c19a55.cozy_c19a55 .header_c19a55 {
@@ -72,4 +83,8 @@ main.chatContent_f75fb0 {
 
 .channelTextArea_f75fb0 {
     background: transparent;
+}
+
+.button__24af7, .attachButton__0923f,.sprite__04eed,.active__04eed{
+  color: var(--nso-purple);
 }
