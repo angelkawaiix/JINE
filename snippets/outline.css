@@ -1,0 +1,8 @@
+/* Use your custom colors from :root */
+.nso-outline {
+    outline: 4px solid var(--nso-purple);
+    outline-offset: 0px;
+    box-shadow:
+        0 0 0 7px var(--nso-cyan),
+        0 0 0 10px var(--nso-purple);
+}

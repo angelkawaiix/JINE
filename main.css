@@ -1,0 +1,32 @@
+:root {
+  --nso-cyan: #90f4e4;
+  --nso-purple: #4d23cf;
+  --nso-pink-header: #f0d1f1;
+--jine-bubble: #cee7ff;}
+
+/* === NSO outlines === */
+.nso-outline {
+    outline: 4px solid var(--nso-purple);
+    outline-offset: 0px;
+    box-shadow:
+        0 0 0 7px var(--nso-cyan),
+        0 0 0 10px var(--nso-purple);
+}
+
+/* === Jine Background === */
+main.chatContent_f75fb0 {
+    background: url("https://github.com/angelkawaiix/JINE/blob/main/resources/images/JINEBG.png?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* === Jine Message Bubble === */
+.cozy_c19a55 .contents_c19a55 {
+    background: var(--jine-bubble);
+    border-radius: 8px;
+    margin: 8px 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
