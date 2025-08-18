@@ -12,12 +12,12 @@
 --jine-bubble: #cee7ff;}
 
 /* === NSO outlines === */
-.nso-outline {
-    outline: 4px solid var(--nso-purple);
+.nso-outline, .themedBackground__74017 {
+    outline: 3px solid var(--nso-purple);
     outline-offset: 0px;
     box-shadow:
-        0 0 0 7px var(--nso-cyan),
-        0 0 0 10px var(--nso-purple);
+        0 0 0 6px var(--nso-cyan),
+        0 0 0 9px var(--nso-purple);
 }
 
 /* === Jine Background === */
@@ -28,7 +28,7 @@ main.chatContent_f75fb0 {
 }
 
 /* === Jine Message Bubble === */
-.cozy_c19a55 .contents_c19a55 {
+.cozy_c19a55 .messageContent_c19a55 {
     background: var(--jine-bubble);
     border-radius: 8px;
     margin: 8px 0;
@@ -36,11 +36,24 @@ main.chatContent_f75fb0 {
     padding-bottom: 8px;
     padding-left: 12px;
     padding-right: 12px;
-    
-    
 }
 
 .markup__75297{
   font-family: Zpix;
   color: var(--nso-purple);
+}
+
+.zalgo_c19a55.cozy_c19a55 .header_c19a55 {
+    font-family: 'zpix';
+    text-shadow: 1px 1px 2px black;
+}
+
+.cozy_c19a55 .timestamp_c19a55{
+  color: var(--nso-purple);
+}
+
+/* message sending */
+.themedBackground__74017{
+  background-color: white;
+  border-radius: 0;
 }
