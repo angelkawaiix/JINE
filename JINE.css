@@ -7,7 +7,7 @@
  * @note used  https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css as a template, as i've never made a discord theme before
  */
 
-@import url("JINEbase.css");
+@import url("https://raw.githubusercontent.com/angelkawaiix/JINE/refs/heads/main/JINEbase.css");
 
 @font-face {
   font-family: 'zpix';
