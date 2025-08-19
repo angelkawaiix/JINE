@@ -39,10 +39,10 @@
 }
 
 :root {
-  --nso-cyan: #90f4e4;
-  --nso-purple: #4d23cf;
-  --nso-pink-header: #f0d1f1;
-  --jine-bubble: #cee7ff;
+  --nso-cyan: #90f3e1;
+  --nso-purple: #4d21cb;
+  --nso-pink-header: #efcfef;
+  --jine-bubble: #cce4fc;
 }
 
 :root {
@@ -269,8 +269,8 @@ var {
 }
 
 .zalgo_c19a55.cozy_c19a55 .header_c19a55 {
-  font-family: "zpix";
-  text-shadow: 1px 1px 2px black;
+    font-family: "zpix";
+    text-shadow: 2px 2px 2px black;
 }
 
 .cozy_c19a55 .timestamp_c19a55 {
@@ -316,7 +316,6 @@ var {
 .theme-dark *,
 .theme-light .container__35859.warning__35859 .text__35859,
 .theme-light .custom-user-profile-theme.theme-dark * {
-  text-shadow: var(--dark_shadows);
 }
 .theme-light .markup__75297,
 .theme-light .navList__08434 *,
@@ -1693,9 +1692,11 @@ var {
   .message__5126c
   .contents_c19a55
   .avatar_c19a55 {
-  width: 35px;
-  height: 35px;
-  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 45px;
+  height: 45px;
+  margin-top: 20px !important;
+  margin-left: 5px !important;
+  border: none;
   box-shadow: var(--chatborder_dark);
   border-radius: var(--avatarradius);
   margin-top: 3px;
