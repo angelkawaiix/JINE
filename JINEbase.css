@@ -270,10 +270,10 @@ var {
 
 .zalgo_c19a55.cozy_c19a55 .header_c19a55 {
   font-family: "zpix";
-  text-shadow: 0 0 2px var(--nso-purple), 0 0 2px var(--nso-purple)
+  text-shadow: 0 0 2px var(--nso-purple), 0 0 2px var(--nso-purple);
 }
 
-.username_c19a55{
+.username_c19a55 {
   background-color: var(--nso-pink-header);
   border-radius: 10px;
   margin: 5px !important;
@@ -3053,18 +3053,26 @@ svg.mask__44b0c.svg__44b0c
 .root_bfe55a .container__9293f {
   height: 48.5px !important;
 }
+.title__9293f {
+  color: var(--nso-purple);
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: PixelMPlus10;
+  font-style: bold;
+}
 .theme-dark .container__9293f,
 .theme-dark .headerBar__8a7fc,
 .theme-dark .headerBar__8a7fc .backdrop__8a7fc {
-  border-bottom: 1px solid rgb(92, 92, 92) !important;
-  box-shadow: inset 0 0 0 1px rgba(6, 6, 6, 0.5), 0 0 5px 5px rgba(0, 0, 0, 0.4) !important;
-  background: linear-gradient(
-    to top,
-    transparent 5%,
-    var(--toolbar_dark_top) 100%
-  ) !important;
-  background-color: var(--toolbar_dark_bottom) !important;
+  outline: 3px solid var(--nso-purple);
+  outline-offset: 0px;
+  box-shadow: 0 0 0 6px var(--nso-cyan), 0 0 0 9px var(--nso-purple);
+  background-color: var(--nso-pink-header) !important;
   padding: 0 3px;
+  margin: 10px;
+  width: -webkit-fill-available;
   /*channel toolbar*/
 }
 .theme-light .container__9293f:not(.images-dark .container__9293f),
@@ -3473,7 +3481,6 @@ svg.mask__44b0c.svg__44b0c
   height: 20px;
   width: 33px;
 }
-
 
 .repliedMessage_c19a55 .username_c19a55,
 .repliedMessage_c19a55 .executedCommandAvatar_c19a55 {
@@ -8030,17 +8037,16 @@ svg.mask__44b0c.svg__44b0c
   /*chatbox gift button*/
 }
 .theme-dark .button__24af7[aria-label*="Send a gift"] {
-    background: url(https://github.com/angelkawaiix/JINE/blob/main/resources/buttons/button_gift.png?raw=true) !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    height: 40px !important;
+  background: url(https://github.com/angelkawaiix/JINE/blob/main/resources/buttons/button_gift.png?raw=true) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: 40px !important;
 }
 .theme-dark .button__24af7[aria-label*="Send a gift"]:active {
   background: url(https://github.com/angelkawaiix/JINE/blob/main/resources/buttons/button_gift.png?raw=true) !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
-
 
 .theme-dark .button__24af7[aria-label*="Open GIF picker"] {
   background: url(https://github.com/angelkawaiix/JINE/blob/main/resources/buttons/button_gif.png?raw=true);
