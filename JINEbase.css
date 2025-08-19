@@ -269,8 +269,8 @@ var {
 }
 
 .zalgo_c19a55.cozy_c19a55 .header_c19a55 {
-    font-family: "zpix";
-    text-shadow: 2px 2px 2px black;
+  font-family: "zpix";
+  text-shadow: 0 0 2px black, 0 0 1px black, 0 0 0 black, 0 0 3px var(--nso-purple);
 }
 
 .cozy_c19a55 .timestamp_c19a55 {
