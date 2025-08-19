@@ -6,6 +6,34 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'PixelMplus10-Bold';
+  src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus10-Bold.ttf?raw=true') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PixelMplus10-Regular';
+  src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus10-Regular.ttf?raw=true') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PixelMplus12-Bold';
+  src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus12-Bold.ttf?raw=true') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PixelMplus12-Regular';
+  src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus12-Regular.ttf?raw=true') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --nso-cyan: #90f4e4;
   --nso-purple: #4d23cf;
