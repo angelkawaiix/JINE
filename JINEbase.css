@@ -7,29 +7,33 @@
 }
 
 @font-face {
-  font-family: 'PixelMplus10';
-  src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus10-Bold.ttf?raw=true') format('truetype');
+  font-family: "PixelMplus10";
+  src: url("https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus10-Bold.ttf?raw=true")
+    format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PixelMplus10';
-  src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus10-Regular.ttf?raw=true') format('truetype');
+  font-family: "PixelMplus10";
+  src: url("https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus10-Regular.ttf?raw=true")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PixelMplus12';
-  src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus12-Bold.ttf?raw=true') format('truetype');
+  font-family: "PixelMplus12";
+  src: url("https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus12-Bold.ttf?raw=true")
+    format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PixelMplus12';
-  src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus12-Regular.ttf?raw=true') format('truetype');
+  font-family: "PixelMplus12";
+  src: url("https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus12-Regular.ttf?raw=true")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -256,7 +260,7 @@ var {
   padding-bottom: 8px;
   padding-left: 12px;
   padding-right: 12px;
-  text-shadow: none !important
+  text-shadow: none !important;
 }
 
 .markup__75297 {
@@ -299,7 +303,6 @@ var {
 .wrapper__8e08c .heading__8e08c {
   font-family: var(--font-display);
 }
-
 
 .info__2debe::before {
   display: block;
@@ -1082,16 +1085,16 @@ var {
   margin-top: 48px;
 }
 .defaultColor__4bd52.lineClamp1__4bd52.text-sm\/medium_cf4812 {
-    font-family: PixelMPlus10;
-    color: var(--nso-purple);
-    text-shadow: none;
+  font-family: PixelMPlus10;
+  color: var(--nso-purple);
+  text-shadow: none;
 }
 
 .theme-dark .title_c38106,
 .bar_c38106.theme-dark .title_c38106,
 .systemBar_c38106.show_c38106 {
   background-color: var(--nso-pink-header);
-  font-family: 'PixelMplus10-Regular';
+  font-family: "PixelMplus10-Regular";
   margin: 6px;
   outline: 3px solid var(--nso-purple);
   outline-offset: 0px;
@@ -1099,7 +1102,7 @@ var {
 }
 
 .title__85643 {
-  font-family: 'PixelMplus10';
+  font-family: "PixelMplus10";
 }
 
 .systemBar_c38106.show_c38106 {
@@ -1128,7 +1131,7 @@ var {
 }
 .winButtons_c38106 {
   gap: 3px;
-  margin-right: 3px
+  margin-right: 3px;
 }
 
 .theme-dark .winButtonClose_c38106,
@@ -1259,9 +1262,6 @@ var {
   box-shadow: none;
   /*titlebar close button active - light mode*/
 }
-
-
-
 
 /* ---- */
 
@@ -1918,7 +1918,7 @@ var {
   .defaultColor__4bd52,
 .voiceChannelsButton__29444 .defaultColor__4bd52,
 .theme-light .reactionBtn__23977.forceShow__23977:hover .icon__23977 path {
-  text-shadow: none !important
+  text-shadow: none !important;
 }
 
 .decorationPreview__51743 .wrapper__44b0c,
@@ -7619,8 +7619,8 @@ svg.mask__44b0c.svg__44b0c
   margin-bottom: 16px;
 }
 .theme-dark .form_f75fb0 {
-    background-color: transparent;
-    border-top: none;
+  background-color: transparent;
+  border-top: none;
 }
 .theme-light .form_f75fb0 {
   background: linear-gradient(
@@ -8594,7 +8594,12 @@ svg.mask__44b0c.svg__44b0c
 .chat_f75fb0 .divider__908e2.isUnread__908e2,
 .divider__5126c.isUnread__908e2 {
   border-width: 2px;
-  border-image: linear-gradient(to right, #0000 5px, var(--nso-purple) calc(60% - 5px)) 1;
+  border-image: linear-gradient(
+      to right,
+      #0000 5px,
+      var(--nso-purple) calc(60% - 5px)
+    )
+    1;
   /*chat unread message separator*/
 }
 
