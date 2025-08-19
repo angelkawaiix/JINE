@@ -7,28 +7,28 @@
 }
 
 @font-face {
-  font-family: 'PixelMplus10-Bold';
+  font-family: 'PixelMplus10';
   src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus10-Bold.ttf?raw=true') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PixelMplus10-Regular';
+  font-family: 'PixelMplus10';
   src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus10-Regular.ttf?raw=true') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PixelMplus12-Bold';
+  font-family: 'PixelMplus12';
   src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus12-Bold.ttf?raw=true') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PixelMplus12-Regular';
+  font-family: 'PixelMplus12';
   src: url('https://github.com/angelkawaiix/JINE/blob/main/resources/fonts/PixelMplus12-Regular.ttf?raw=true') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -319,11 +319,6 @@ var {
 .theme-light .navList__08434 *,
 .theme-light .panels_c48ade * {
   text-shadow: var(--light_shadows) !important;
-}
-.sidebar_c48ade.theme-dark *,
-.sidebarRegion__23e6b.theme-dark *,
-.images-dark * {
-  text-shadow: var(--dark_shadows) !important;
 }
 .button__201d5 * {
   text-shadow: var(--button_shadows) !important;
@@ -1086,6 +1081,11 @@ var {
 .carouselModal_d3a6f0 {
   margin-top: 48px;
 }
+.defaultColor__4bd52.lineClamp1__4bd52.text-sm\/medium_cf4812 {
+    font-family: PixelMPlus10;
+    color: var(--nso-purple);
+    text-shadow: none;
+}
 
 .theme-dark .title_c38106,
 .bar_c38106.theme-dark .title_c38106,
@@ -1097,9 +1097,15 @@ var {
   outline-offset: 0px;
   box-shadow: 0 0 0 6px var(--nso-cyan), 0 0 0 9px var(--nso-purple);
 }
+
+.title__85643 {
+  font-family: 'PixelMplus10';
+}
+
 .systemBar_c38106.show_c38106 {
   border: none;
 }
+
 .theme-light .title_c38106,
 .theme-light .systemBar_c38106.show_c38106 {
   background-color: var(--nso-pink-header);
@@ -5789,8 +5795,7 @@ svg.mask__44b0c.svg__44b0c
 .icon_f34534.iconSizeMini_f34534,
 .wrapper_ef3116.guilds_c48ade.theme-dark .icon_f34534.iconSizeMini_f34534,
 .outer_c0bea0.theme-dark .iconSizeSmol_f34534 {
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.6),
-    0 0 2px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: none;
   border-radius: 999px !important;
   /*minimized folder server icons*/
 }
