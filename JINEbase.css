@@ -9,10 +9,11 @@
 --nso-cyan: #90f4e4;
 --nso-purple: #4d23cf;
 --nso-pink-header: #f0d1f1;
---jine-bubble: #cee7ff;}
+--jine-bubble: #cee7ff;
+}
 
 /* === NSO outlines === */
-.nso-outline, {
+.nso-outline {
     outline: 3px solid var(--nso-purple);
     outline-offset: 0px;
     box-shadow:
@@ -26,9 +27,6 @@ a,abbr,acronym,address,applet,big,blockquote,body,caption,cite,code,dd,del,dfn,d
     font-size: 100%;
     font-style: inherit;
     font-weight: inherit;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline
 }
 
 /* === Jine Background === */
