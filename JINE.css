@@ -8458,7 +8458,7 @@ svg.mask__44b0c.svg__44b0c
 .text-xs\/semibold_cf4812 {
   font-size: 12px;
   letter-spacing: 0.3px;
-  line-height: 12px;
+  color: var(--nso-purple) !important;
 }
 .eyebrow_b717a1 {
   font-weight: 700;
@@ -9218,7 +9218,7 @@ svg.mask__44b0c.svg__44b0c
 .tagContainer__95856,
 .chipletContainerInner__10651,
 .outer_c0bea0.theme-dark .chipletContainerInner__10651 {
-  color: var(--nso-purple);
+  color: var(--nso-purple) !important;
   text-shadow: none;
   /*bot tag*/
 }
