@@ -3491,13 +3491,18 @@ svg.mask__44b0c.svg__44b0c
   margin-right: 0;
 }
 .repliedTextPreview_c19a55 {
-  margin-top: -2px;
-  max-height: 22px;
+    margin-top: -2px;
+    max-height: 30px;
+    text-align: -webkit-center;
 }
 .repliedMessage_c19a55 .repliedTextPreview_c19a55 .repliedTextContent_c19a55 {
-  margin-bottom: 0 !important;
-  margin-top: 2px !important;
-  opacity: 0.6;
+    margin-bottom: 0 !important;
+    margin-top: 2px !important;
+    opacity: 0.6;
+    align-content: center;
+    padding: 6px;
+    overflow: visible !important;
+    font-size: 80%;
 }
 
 .applicationCommandEducationArrow-2xKDmq {
