@@ -5977,8 +5977,8 @@ svg.mask__44b0c.svg__44b0c
   /*unread message pill*/
 }
 .unreadPillCapStroke__908e2 {
-  color: rgba(142, 64, 68);
-  fill: rgba(142, 64, 68);
+  color: var(--nso-purple);
+  fill: var(--nso-purple);
 }
 
 .wrapper_ef3116.guilds_c48ade {
@@ -8635,8 +8635,9 @@ svg.mask__44b0c.svg__44b0c
 }
 
 #app-mount .isUnread__908e2 .content__908e2 {
-  background: rgba(142, 64, 68) !important;
-  border: 1px solid rgba(142, 64, 68) !important;
+  background: var(--nso-pink-header) !important;
+  border: 1px solid var(--nso-purple) !important;
+  color: var(--nso-purple) !important;
   /*chat message date BG - unread*/
 }
 
