@@ -11380,16 +11380,13 @@ theme-light .searchResult__02a39 {
 }
 .theme-dark .wrapper_f61d60,
 .theme-dark .message_dae006 strong {
-  color: white;
-  background: linear-gradient(
-    to top,
-    transparent 50%,
-    rgba(255, 255, 255, 0.4) 100%
-  );
-  box-shadow: inset 0 0 0 1px rgba(230, 230, 230, 0.6) !important;
-  background-color: rgba(22, 65, 132, 0.6);
+  color: var(--nso-purple);
+  background: var(--nso-pink-header);
+  box-shadow: inset 0 0 0 1px var(--nso-purple) !important;
+  background-color: var(--nso-pink-header);
   border-radius: 3px;
   margin-right: 1px;
+  padding: 3px;
   transition: none !important;
   /*username-channel mention tag*/
 }
@@ -11410,12 +11407,13 @@ theme-light .searchResult__02a39 {
 }
 .wrapper_f61d60:hover,
 .mentioned__5126c .channelMention.wrapper_f61d60:hover {
-  background: linear-gradient(
-    to top,
-    transparent 45%,
-    rgba(255, 255, 255, 0.55) 100%
-  );
-  background-color: rgba(52, 95, 162, 0.6);
+  color: var(--nso-purple);
+  background: var(--nso-pink-header);
+  box-shadow: inset 0 0 0 1px var(--nso-purple) !important;
+  background-color: var(--nso-pink-header);
+  border-radius: 3px;
+  margin-right: 1px;
+  padding: 3px;
   transition: none !important;
 }
 .wrapper_f61d60:active,
