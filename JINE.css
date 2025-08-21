@@ -1723,14 +1723,14 @@ var {
   /*chat avatar placement margins & mask*/
 }
 .mentioned__5126c .avatarDecoration_c19a55 {
-    margin-left: -4px !important;
-    margin-top: 0px !important;
+  margin-left: -4px !important;
+  margin-top: 0px !important;
 }
-.avatarDecoration_c19a55{
+.avatarDecoration_c19a55 {
   margin-top: 15px !important;
   margin-left: 1px !important;
   width: 52px !important;
-  height: 52px !important;  
+  height: 52px !important;
 }
 
 .theme-light .avatar_c19a55:not(.images-dark .avatar_c19a55) {
