@@ -9247,16 +9247,7 @@ svg.mask__44b0c.svg__44b0c
 [class*="countContainer_"]:not(
     .connectedAccountsColumn_e6abe8 .connectedAccountContainer_e6abe8
   ) {
-  background: linear-gradient(
-    to top,
-    transparent 10%,
-    hsl(225, calc(var(--saturation-factor, 1) * 32.7%), 42%) 100%
-  ) !important;
-  background-color: hsl(
-    226,
-    calc(var(--saturation-factor, 1) * 47.5%),
-    27.6%
-  ) !important;
+  background-color: white !important;
 }
 .member__5d473 .botTagRegular__82f07 {
   margin-top: -1px !important;
