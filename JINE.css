@@ -17552,3 +17552,10 @@ theme-light .searchResult__02a39 {
   background: white;
 }
 /* ---- */
+
+.appTitleSearch_a92646,
+.appTitleSearchBar_a92646 {
+  width: 360px;
+  display: flex;
+  justify-content: center;
+}
