@@ -335,10 +335,6 @@ var {
   padding-bottom: 8px;
   margin-bottom: 6px;
 }
-.theme-dark *,
-.theme-light .container__35859.warning__35859 .text__35859,
-.theme-light .custom-user-profile-theme.theme-dark * {
-}
 .theme-light .markup__75297,
 .theme-light .navList__08434 *,
 .theme-light .panels_c48ade * {
@@ -1188,7 +1184,7 @@ var {
   /*titlebar close button*/
 }
 .winButtonClose_c38106:hover {
-  ackground: url(https://github.com/angelkawaiix/JINE/blob/main/resources/buttons/button_close.png?raw=true);
+  background: url(https://github.com/angelkawaiix/JINE/blob/main/resources/buttons/button_close.png?raw=true);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -15914,6 +15910,8 @@ theme-light .searchResult__02a39 {
 .headerIcon__61424:last-of-type {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>')
     center no-repeat;
+  mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>')
+    center no-repeat;
   background: currentColor !important;
   fill: none !important;
   /*dropdown arrow fill code*/
@@ -15921,20 +15919,28 @@ theme-light .searchResult__02a39 {
 .theme-dark .command_c94584 svg:not(.commandSentCTAButton_c94584 svg) {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>')
     center no-repeat;
+  mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>')
+    center no-repeat;
   background: #bebebe !important;
 }
 .theme-light .command_c94584 svg:not(.commandSentCTAButton_c94584 svg) {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>')
+    center no-repeat;
+  mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>')
     center no-repeat;
   background: #3c3c3c !important;
 }
 .expandableDescriptionClickable__95856 svg {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>')
     center no-repeat;
+  mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>')
+    center no-repeat;
   background: var(--text-brand) !important;
 }
 .header_c7ac92 svg {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>')
+    center no-repeat;
+  mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M7 10L12 15 17 10"></path></svg>')
     center no-repeat;
   background: var(--interactive-normal) !important;
 }
@@ -15989,6 +15995,8 @@ theme-light .searchResult__02a39 {
 
 .addButtonIcon__29444 svg {
   -webkit-mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8"></path></svg>')
+    center no-repeat;
+  mask: url('data:image/svg+xml; utf-8,<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="15 10 10 10 10 15 8 15 8 10 3 10 3 8 8 8 8 3 10 3 10 8 15 8"></path></svg>')
     center no-repeat;
   background: currentColor;
 }
