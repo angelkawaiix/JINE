@@ -1,3 +1,7 @@
+/* -------------------------------------------------------------------------- */
+/*                                    About                                   */
+/* -------------------------------------------------------------------------- */
+
 /*
 /**
  * @name JINE
@@ -6,6 +10,10 @@
  * @version 0.0.0
  * @note used  https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css as a template, as i've never made a discord theme before
  */
+
+/* -------------------------------------------------------------------------- */
+/*                                    Fonts                                   */
+/* -------------------------------------------------------------------------- */
 
 @font-face {
   font-family: "zpix";
@@ -189,12 +197,16 @@
   /*------*/
 }
 
-/* === NSO outlines === */
+/* ---------------------------- NSO outline guide --------------------------- */
 .nso-outline {
   outline: 3px solid var(--nso-purple);
   outline-offset: 0px;
   box-shadow: 0 0 0 6px var(--nso-cyan), 0 0 0 9px var(--nso-purple);
 }
+
+/* -------------------------------------------------------------------------- */
+/*                                  Text CSS                                  */
+/* -------------------------------------------------------------------------- */
 
 a,
 abbr,
@@ -258,9 +270,21 @@ var {
   font-weight: inherit;
 }
 
-/* === Jine Background === */
+.markup__75297 {
+  font-family: Zpix !important;
+  color: var(--nso-purple) !important;
+}
 
-/* === Jine Message Bubble === */
+.zalgo_c19a55.cozy_c19a55 .header_c19a55 {
+  font-family: "zpix";
+  text-shadow: 0 0 2px var(--nso-purple), 0 0 2px var(--nso-purple);
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              Main text window                              */
+/* -------------------------------------------------------------------------- */
+
+/* --------------------------- Jine message bubble -------------------------- */
 .cozy_c19a55 .messageContent_c19a55 {
   background: var(--jine-bubble);
   border-radius: 8px;
@@ -272,16 +296,11 @@ var {
   text-shadow: none !important;
 }
 
-.markup__75297 {
-  font-family: Zpix !important;
-  color: var(--nso-purple) !important;
+.cozy_c19a55 .timestamp_c19a55 {
+  color: var(--nso-purple);
 }
 
-.zalgo_c19a55.cozy_c19a55 .header_c19a55 {
-  font-family: "zpix";
-  text-shadow: 0 0 2px var(--nso-purple), 0 0 2px var(--nso-purple);
-}
-
+/* ----------------------------- Username header ---------------------------- */
 .username_c19a55 {
   background-color: var(--nso-pink-header);
   border-radius: 10px;
@@ -295,11 +314,7 @@ var {
   margin-left: 5px;
 }
 
-.cozy_c19a55 .timestamp_c19a55 {
-  color: var(--nso-purple);
-}
-
-/* message sending */
+/* ---------------------------- Text input panel ---------------------------- */
 .themedBackground__74017 {
   background-color: white;
   border-radius: 0;
@@ -318,32 +333,9 @@ var {
   color: var(--nso-purple);
 }
 
-.noIcon_f34534.iconSizeMini_f34534 {
-  line-height: 18px;
-}
-.heading__6fd0e,
-.wrapper__8e08c .heading__8e08c {
-  font-family: var(--font-display);
-}
-
-.info__2debe::before {
-  display: block;
-  content: "SkeuoCord " var(--version);
-  color: hsl(218, calc(var(--saturation-factor, 1) * 5%), 47%);
-  font-weight: bold;
-  font-size: 14px;
-  padding-bottom: 8px;
-  margin-bottom: 6px;
-}
-.theme-light .markup__75297,
-.theme-light .navList__08434 *,
-.theme-light .panels_c48ade * {
-  text-shadow: var(--light_shadows) !important;
-}
-.button__201d5 * {
-  text-shadow: var(--button_shadows) !important;
-}
-/* ------ */
+/* -------------------------------------------------------------------------- */
+/*                                Left Sidebar                                */
+/* -------------------------------------------------------------------------- */
 
 .sidebar_c48ade.theme-dark .container__2637a,
 .sidebar_c48ade.theme-dark .scroller__99e7c {
