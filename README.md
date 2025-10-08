@@ -31,13 +31,13 @@ Examples:
 - Fully redesigned theme
 - New version breaks old code
 
-🟧 Minor (Y) — New Features or Additions
+🟧 Minor — New Features or Additions
 
 Examples:
 - Add new sections
 - Visual improvements without breaking the code
 
-🟩 Patch (Z) — Fixes & Tweaks
+🟩 Patch — Fixes & Tweaks
 
 Examples:
 - Small bug fixes (misaligned icons, hover color, transparency issue)
