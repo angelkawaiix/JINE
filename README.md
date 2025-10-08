@@ -8,7 +8,6 @@ This theme is currently in a demo state. It is not fully complete.
 
  - [Needy Streamer Overload](https://store.steampowered.com/app/1451940/NEEDY_STREAMER_OVERLOAD/)
  - [Many assets owned by WSS Playground](https://whysoserious.jp/en/)
- - [SukeuoCord used as a template](https://marda33.github.io/SkeuoCord/updates/SkeuoCordBase.css)
 
 
 ## Feedback and Feedback
@@ -20,3 +19,27 @@ For any feedback of changes to the theme, or bugs found within the theme, PLEASE
 
 This theme is currently not properly set up for installation.
     
+## Versioning
+
+This theme uses [semantic versioning!](https://semver.org/)
+
+MAJOR.MINOR.PATCH
+
+**🟥 Major — Breaking Changes**
+
+Examples:
+- Fully redesigned theme
+- New version breaks old code
+
+🟧 Minor (Y) — New Features or Additions
+
+Examples:
+- Add new sections
+- Visual improvements without breaking the code
+
+🟩 Patch (Z) — Fixes & Tweaks
+
+Examples:
+- Small bug fixes (misaligned icons, hover color, transparency issue)
+- Small adjustments
+- Cleaning up code
