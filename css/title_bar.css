@@ -6,6 +6,7 @@
 
 div[class*='bar_c38106'] {
   position: relative;
+  background-color: var(--nso-pink-header);
   z-index: 1000;
   border-bottom: 2px solid var(--nso-purple);
 }
@@ -24,12 +25,6 @@ div[class*='bar_c38106']::after {
   z-index: 100;
 }
 
-div[class*='bar_c38106'] div{
-  background-color: var(--nso-pink-header);
-  color: var(--nso-purple);
-  font-family: "PixelMPlus12"
-}
-
 /* TEXT --------------------------------------------------------------------- */
 
 div[class*='bar_c38106'] div[class*='title']{
@@ -37,8 +32,9 @@ div[class*='bar_c38106'] div[class*='title']{
   justify-content: flex-start;
 }
 
-div[class*='title_c38106'] div[class*='defaultColor__4bd52']::before {
+div[class*='title_c38106'] div[class*='defaultColor']::before {
   content: "JINE";
+  font-family: "PixelMPlus12";
   position: absolute;
   inset: 0;
   display: flex;
@@ -78,39 +74,43 @@ div[class*='title_c38106']::before {
 /* WINDOW BUTTONS ----------------------------------------------------------- */
 
 
-div[class*='winButtons_c38106'] div[aria-label*="Minimize"]{
+div[class*='winButtons'] div[aria-label*="Minimize"]{
   margin-right: 5px;
   height: 20px;
   width: 20px;
   background-image: url(https://github.com/angelkawaiix/JINE/blob/main/resources/buttons/button_minimize.png?raw=true) !important;
 }
 
-div[class*='winButtons_c38106'] div[aria-label*="Minimize"] svg {
+div[class*='winButtons'] div[aria-label*="Minimize"] svg {
   display: none !important;
 }
 
-div[class*='winButtons_c38106'] div[aria-label*="Maximize"]{
+div[class*='winButtons'] div[aria-label*="Maximize"]{
   margin-right: 5px;
   height: 20px;
   width: 20px;
   background-image: url(https://github.com/angelkawaiix/JINE/blob/main/resources/buttons/button_maximize.png?raw=true) !important;
 }
 
-div[class*='winButtons_c38106'] div[aria-label*="Maximize"] svg {
+div[class*='winButtons'] div[aria-label*="Maximize"] svg {
   display: none !important;
 }
 
-div[class*='winButtons_c38106'] div[aria-label*="Close"]{
+div[class*='winButtons'] div[aria-label*="Close"]{
   margin-right: 5px;
   height: 20px;
   width: 20px;
   background-image: url(https://github.com/angelkawaiix/JINE/blob/main/resources/buttons/button_close.png?raw=true) !important;
 }
 
-div[class*='winButtons_c38106'] div[aria-label*="Close"] svg {
+div[class*='winButtons'] div[aria-label*="Close"] svg {
   display: none !important;
 }
 
-div[class*='trailing_c38106'] div[aria-label*="Help"] svg {
+div[class*='trailing'] div[aria-label*="Help"] svg {
+  color: var(--nso-purple)
+}
+
+div[class*='trailing'] div[aria-label="Inbox"] svg {
   color: var(--nso-purple)
 }
