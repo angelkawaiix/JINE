@@ -49,6 +49,7 @@
   --nso-purple: #4d21cb;
   --nso-pink-header: #efcfef;
   --jine-bubble: #cce4fc;
+  --nso-pink-body: #fcf0fd;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -64,6 +65,10 @@
   position: relative;
   z-index: 0;
   overflow: visible;
+}
+
+div[class*="content"]{
+  margin-top: 8px;
 }
 
 

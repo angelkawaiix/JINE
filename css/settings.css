@@ -1,0 +1,106 @@
+/* -------------------------------------------------------------------------- */
+/*                                  SETTINGS                                  */
+/* -------------------------------------------------------------------------- */
+
+/* BOX ---------------------------------------------------------------------- */
+div[data-layer="USER_SETTINGS"]{
+  margin: 10vw;
+  padding-top: 0px !important;
+  top: -0px !important;
+}
+
+div[data-layer="USER_SETTINGS"]{
+  border: 2px solid var(--nso-purple);
+  box-shadow:
+    0 0 0 4px var(--nso-cyan),
+    0 0 0 6px var(--nso-purple);
+  position: relative;
+  z-index: 0;
+  overflow: visible;
+}
+
+div[class*='baseLayer']{
+  opacity: 100% !important;
+}
+
+div[class*='bar_c38106 systemBar_c38106 fixed_c38106 show_c38106']{
+  visibility: hidden;
+}
+
+div[class*='standardSidebarView']{
+  top:0px !important;
+}
+
+/* LEFT SIDEBAR ------------------------------------------------------------- */
+
+div[class*='sidebarRegion']{
+  color: var(--nso-purple);
+  background-color: var(--nso-pink-body) !important;
+}
+
+div[class*='sidebarRegionScroller'] div[class*='headerText']{
+  font-family: 'PixelMPlus12' !important;
+  color: var(--nso-purple) !important;
+  font-size: 20px;
+}
+
+div[class*='sidebarRegionScroller'] div[class*="item"]{
+  font-family: 'Zpix' !important;
+  color: var(--nso-purple) !important;
+}
+
+div[class*='searchBar'] div[class*="container"]{
+  font-family: 'Zpix' !important;
+  background-color: var(--nso-pink-header);
+  border-color: var(--nso-purple);
+  border-width: 1px;
+  border-style: solid;;
+  border-radius: 0%;
+}
+
+div[class*='searchBar'] input[aria-label="Search"]::placeholder {
+  color: var(--nso-purple) !important;
+  opacity: 1 !important;
+  font-family: 'Zpix';
+}
+
+div[class*='searchBar'] svg path{
+  fill: var(--nso-purple) !important;
+}
+
+/* RIGHT MAIN WINDOW -------------------------------------------------------- */
+
+div[class*='contentRegion']{
+  background-color: var(--nso-pink-body);
+}
+
+div[class*='contentColumn']{
+  padding: 0px;
+}
+
+div[class*='contentColumn'] h3[class*='defaultColor']{
+  color: var(--nso-purple) !important;
+  font-family: 'PixelMPlus12';
+}
+
+div[class*='contentRegion'] legend{
+  font-family: 'ZPix';
+  color: var(--nso-purple) !important;
+}
+div[class*='contentRegion'] span{
+  font-family: 'ZPix' !important;
+  color: var(--nso-purple) !important;
+}
+
+div[class*='contentRegion'] div{
+  font-family: 'ZPix' !important;
+  color: var(--nso-purple) !important;
+}
+
+div[class*='contentRegion'] button{
+  background-color: var(--nso-cyan);
+  color: var(--nso-purple);
+}
+div[class*='contentColumn'] div[class*='card']{
+  background-color: var(--nso-pink-header);
+}
