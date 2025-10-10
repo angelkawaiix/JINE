@@ -50,7 +50,22 @@
   --nso-pink-header: #efcfef;
   --jine-bubble: #cce4fc;
   --nso-pink-body: #fcf0fd;
+  --window-transparent: transparent;
+  --window-windose: url(https://github.com/angelkawaiix/JINE/blob/6ef4047651aaf8f98becfc35b2b896d302874091/resources/images/FHDbg.png?raw=true)
 }
+
+/*
+Choose between transparency and the classic windose background
+For the classic windose background, set the variable to
+  --window-windose
+For a transparent backround, enable transparency in vencord and set the variable to 
+  --window-transparent
+*/
+
+:root {
+  --window-background: var(--window-windose);
+}
+
 
 /* -------------------------------------------------------------------------- */
 /*                                 APP WINDOW                                 */
@@ -71,10 +86,38 @@ div[class*="content"]{
   margin-top: 8px;
 }
 
-/* TEMPORARILY HIDING USER PANNEL FOR EASE OF ACCESS ------------------------ */
-.panels_c48ade{
-  visibility: visible;
+/* WINDOW TRANSPARENCY ------------------------------------------------------ */
+
+html, body {
+  background: transparent !important;
+  background-color: transparent !important;
 }
+
+div[class*="app"],
+div[class*="bg"],
+div[class*="background"],
+div[class*="appContainer"],
+div[class*="wrapper"],
+div[class*="layer"],
+div[class*="chat"],
+nav[class*="wrapper"] {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+div[class*="appMount"]::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: var(--window-background);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 1;
+  z-index: -1;
+  pointer-events: none;
+}
+
 
 /* -------------------------------------------------------------------------- */
 /*                      WINDOW SEPERATION AND POSITIONING                     */
@@ -159,7 +202,7 @@ div[class*='content'] main[class*='chatContent']{
   height: 70%;
   width: 50%;
   left: 28%;
-  top: calc(8% + 50px);
+  top: calc(8% + 8px + 30px);
   position: fixed;
   overflow: hidden
 }
@@ -174,17 +217,84 @@ div[class*='content'] div[class*='subtitleContainer']{
     0 0 0 4px var(--nso-cyan),
     0 0 0 6px var(--nso-purple);
   position: relative;
-  z-index: 0;
-  overflow: visible;
+  z-index: 2;
+  overflow: hidden;
   padding: 0px;
   height: 30px;
   width: 50%;
   left: 28%;
   top: 8%;
   position: fixed;
-  overflow: hidden
 }
 
 
+/* -------------------------------------------------------------------------- */
+/*                                 MAIN WINDOW                                */
+/* -------------------------------------------------------------------------- */
 
+/* CHANNEL HEADER ----------------------------------------------------------- */
+div[class*='subtitleContainer'] section[aria-label="Channel header"]{
+  padding: 0px;
+  background-color: var(--nso-pink-header);
+}
 
+section[aria-label="Channel header"] div[class*='children']{
+  height: 30px;
+  padding: 4px;
+}
+section[aria-label="Channel header"] div[class*='children']::after{
+  background: none;
+}
+section[aria-label="Channel header"] div[class*='toolbar']{
+  height: 30px;
+  padding: 4px;
+  gap: 0px;
+}
+
+section[aria-label="Channel header"] div[class*='toolbar'] div[class*='search']{
+  width: 10vw;
+}
+
+section[aria-label*="Channel header"] * {
+  color: var(--nso-purple);
+}
+
+div[class*='subtitleContainer'] h1{
+  color: var(--nso-purple);
+  font-family: pixelmplus12;
+  margin-left: 4px;
+}
+
+div[class*='subtitleContainer'] div[class*='children'] div[class*='icon']{
+  display: none;
+}
+
+div[class*='subtitleContainer'] div[class*='children'] div[class*='icon']{
+  color: transparent;
+  position: relative;
+}
+
+div[class*='subtitleContainer'] div[class*='children'] svg {
+  display: none;
+}
+
+div[class*='subtitleContainer'] div[class*='avatar']{
+  display: none;
+  color: transparent;
+  position: relative;
+}
+
+div[class*='subtitleContainer'] div[class*='children']::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  background-color: var(--nso-purple);
+  border-radius: 0%;
+  vertical-align: middle;
+}
+
+div[class*='subtitleContainer'] div[class*='avatar']{
+  margin: 0px;
+}
