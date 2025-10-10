@@ -18,6 +18,8 @@ For any feedback of changes to the theme, or bugs found within the theme, PLEASE
 ## Installation
 
 This theme is currently not properly set up for installation.
+requires themeattributes
+https://vencord.dev/plugins/ThemeAttributes
     
 ## Versioning
 
